@@ -1,0 +1,3 @@
+- LIFO approach
+- Can be implemented using array or linked list. There is no limitations of size in linked list approach but there is an overhead of storing the pointer.
+- Each stack operation is O(1): push(), pop(), top(), etc.
