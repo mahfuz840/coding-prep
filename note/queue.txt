@@ -1,0 +1,11 @@
+Time complexities:
+	- Enqueue: 
+		- Regular Queue: O(1)
+		- Circular Queue: O(1)
+	- Dequeue:
+		- Regular Queue: O(n) for array implementation, and O(1) for linked list. In some places, it is mentioned that the time complexity for this operation in a regular queue's array implementation is amortised constant time.
+		- Circular Queue: O(1)
+	- Front:
+		- Regular Queue: O(1)
+		- Circular Queue: O(1)
+
