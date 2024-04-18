@@ -1,0 +1,18 @@
+storing and searching data in O(1) time
+
+Collision: when the hashed value of two keys are same.
+Collision Resolution:
+	- Open hashing (chaining): creating a linked list in the bucket for the keys whose hashed values are equal.
+		Advantage: Deletion is easy, insertion is O(1)
+		Disadvantage: searching is O(n) in worst case, extra memory usage since there can be empty slots
+	- Closed hashing (Open addressing): 
+		- Linear probing
+			Advantage: no extra space
+			Disadvantage: insertion and searching time is O(n) in worst case, deletion is difficult, primary clustering, secondary clustering
+		- Quadratic probing
+		- Double hashing
+
+
+Load factor: # of elements/hash table size
+Probe value: how many times we had to look into a position to insert a value.
+
