@@ -1,0 +1,8 @@
+take i-th element and compare it with the elements in the left hand side.
+Swap until num[j] < num[i]
+
+Time complexity:
+    Best case (already sorted in ascending order):
+        - Takes (N-1) comparisons and 0 swaps
+    Worst case (sorted in the descending order):
+        - Takes (N^2)/2 comparisons and swaps

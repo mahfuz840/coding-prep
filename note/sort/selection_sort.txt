@@ -1,0 +1,8 @@
+Take i-th element and compare with the elements at the right
+find the min
+replace if num[j] < num[i]
+
+Complexity:
+    - Uses (N^2)/2 comparisons. Time complexity is insensitive of input data, and as a result, best case and worst case are same. 
+        If the data is already sorted, it still takes quadratic comparisons.
+    - Uses N swap operations.
